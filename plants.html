@@ -13,6 +13,26 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#PlantsNavbarInformation" aria-controls="PlantsNavbarInformation" 
+    aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="PlantsNavbarInformation">
+        <ul class="navbar-nav mr-auto">
+         
+            <li class="nav-item">
+                <a class="nav-link" href="basic.html">Basic </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="advanced.html">Advanced </a>
+            </li>
+        </ul>
+    </div>
+</nav>
 <h1>Plants by Swarupa Jinne</h1>
 
 <div class="container">
@@ -41,6 +61,184 @@
    and the browser stacks them vertically. Meanwhile, the first row divs still fit within the 
    available space and remain on a single row.
 </p>
+
+<div class = container></div>
+ <div>
+     <img src="Iris.jpg" alt="Iris" class="image-fluid" width="200px" height="150px">
+     <img src="Nasturtium.jpg" alt="Nasturtium" class="image-fluid" width="200px" height="150px">
+     <img src="Nandina.jpg" alt="Nandina" class="image-fluid" width="200px" height="150px">
+     </div>
+     <div class = container></div>
+     <div>
+	 <br>
+         <br>
+         <image src="Iris.jpg"  class="img-thumbnail"  alt="Iris"  width="200px" height="250px">
+         <image src="Nasturtium.jpg"  class="img-thumbnail" alt="Nasturtium"  width="200px" height="250px">
+         <image src="Nandina.jpg"  class="img-thumbnail" alt="Nandina"width="200px" height="250px">
+     </div>
+</div>
+</div>
+
+<table class="table"></table>
+  <div class="container-fluid">
+    <table class="table table-bordered table-hover">
+    <br>
+    <br>
+    <caption style="color: darkmagenta;">Table showing Plant name, Mountain name and Lake name with Letter</caption>
+    <thead>
+        <tr class="table-warning">
+            <th>Letter</th>
+            <th>Plant</th>
+            <th>Mountain</th>
+            <th>Lake</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr class="table-primary" >
+          <td style="background-color: pink;">J</td>
+          <td style="background-color: pink;" >Jasmine</td>
+          <td style="background-color: pink;">Jackson</td>
+          <td style="background-color: pink;">Jamaica Bay</td>
+        </tr>      
+      <tr class="table-info">
+        <td>I</td>
+        <td>Iris</td>
+        <td>Ismoil somoni peak</td>
+        <td>Ibera Lake</td>
+      </tr>
+      <tr class="table-warning">
+        <td style="background-color: rgb(192, 211, 255);">N </td>
+        <td style="background-color: rgb(192, 211, 255);">Nandina</td>
+        <td style="background-color: rgb(192, 211, 255);">Namunukula</td>
+        <td style="background-color: rgb(192, 211, 255);">Naivasha</td>
+      </tr>
+      <tr class="table-success">
+        <td>N</td>
+        <td>Nasturtium</td>
+        <td>Namcha barwa</td>
+        <td>Namekagon River</td>
+      </tr>
+      <tr class="table-warning">
+        <td style="background-color: rgb(255, 251, 192);">E</td>
+        <td style="background-color: rgb(255, 251, 192);">Eucalyptus</td>
+        <td style="background-color:rgb(255, 251, 192);">Eagles rest peak</td>
+        <td style="background-color: rgb(255, 251, 192);">Elmenteita</td>
+      </tr>
+      <tr class="table-dark">
+        <td>S</td>
+        <td>Sage</td>
+        <td>Sacajawea peak</td>
+        <td>Salto Grande</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <label>BUTTONS</label>
+  <div class="btn">
+  <button type="button" class="btn btn-warning" >J</button>
+  <button type="button" class="btn btn-success" >I</button>
+  <button type="button" class="btn btn-primary" >N</button>
+  <button type="button"  class="btn btn-warning" >N</button>
+  <button type="button" class="btn btn-danger">E</button>
+  <button type="button" class="btn btn-success">S</button>
+  </div>
+  <br>
+  <label>BUTTON GROUPS  : </label>
+  <div class="container btn-toolbar">
+    <div class="btn-group" role="group" aria-label="Images that are found in success">
+      <button type="button" class="btn btn-success">I</button>
+      <button type="button" class="btn btn-success">N</button>
+      <button type="button" class="btn btn-success">N</button>
+    </div>  
+    <div class="btn-group" role="group" aria-label="warning buttons">
+      <button type="button" class="btn btn-warning">J</button>
+      <button type="button" class="btn btn-warning">E</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="danger button">
+      <button type="button" class="btn btn-danger">S</button>
+    </div>
+  </div>
+    <br>
+    <div class="container">
+      <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" type="button">
+              Initial Button
+          </button>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="basic.html">Basic Page</a>
+              <a class="dropdown-item" href="advanced.html">Advanced Page</a>
+          </div>
+      </div>
+  </div>
+  <br>
+
+  <div class="container">
+    <form action="">
+        <div class="form-group">
+            <label for="PlantsEmail" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="PlantEmail" 
+            aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="form-group">
+            <label for="PlantsInput" class="form-label">Plant</label>
+            <input type="text" class="form-control" id="PlantInput" 
+            placeholder="Enter Your Plant">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="PlantCheck">
+            <label class="form-check-label" for="PlantsCheck">Sign up for newsletter?</label>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
+<br>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md">
+          <div class="card" style="width: 20rem;">
+              <img src="Iris.jpg" class="card-img-top" alt="Iris">
+              <div class="card-body">
+                  <h5 class="card-title">Iris</h5>
+                  <p class="card-text">
+                    Iris is a flowering plant genus of 310 accepted species with showy flowers. 
+                    As well as being the scientific name, iris is also widely used as a common name 
+                    for all Iris species, as well as some belonging to other closely related genera.
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Iris_(plant)" class="btn btn-secondary">Know More</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md">
+          <div class="card" style="width: 20rem;">
+              <img src="Nasturtium.jpg" class="card-img-top" alt="Nasturtium">
+              <div class="card-body">
+                  <h5 class="card-title">Nasturtium</h5>
+                  <p class="card-text">
+                      Tropaeolum, a plant genus in the family Tropaeolaceae, commonly known as nasturtium.
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Nasturtium" class="btn btn-secondary">Know More</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md">
+          <div class="card" style="width: 20rem;">
+              <img src="Nandina.jpg" class="card-img-top" alt="Nandina">
+              <div class="card-body">
+                  <h5 class="card-title">Nandina</h5>
+                  <p class="card-text">
+                    Nandina domestica commonly known as nandina,It is the only member of the monotypic genus Nandina. 
+                  </p>
+                  <a href="https://en.wikipedia.org/wiki/Nandina" class="btn btn-secondary">Know More</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<br>
 
 
 
